@@ -1,12 +1,14 @@
 @startditaa
 
-
-/------------------------------------------------------------------------------------\  
-|3. User starts a new worksapace using the wsmaster he is developing             cGRE|
+/------------------------------------------------------------------------------------\
+|3) User starts a new worksapace using the wsmaster in debug mode                cGRE|
 |                                                                                    |
-|      Pods are created in the user namespace                                        |
+|Sidecars and a sample app container are started in the USER NAMESPACE.              |
+|                                                                                    |
+|       Debugging the services running inside these containers is possible           |
+|       using CHE NAMESPACE IDE through exposed services and routes.                 |
 \------------------------------------------------------------------------------------/
-     
+
 +=-----------------------------------------------------------------------------------+
 |                                                                                    |
 | +-------------------------------------------------------------------------------+  |

@@ -4,9 +4,14 @@
 /------------------------------------------------------------------------------------\  
 |2. User starts Che in Che workspace                                             cGRE|
 |                                                                                    |
-|      CHE Master that is started as the user runtime contaienr should be configured |
-|      to use the OSIO User token. That has privileges to create pods                |
-|      in USER NAMESPACE                                                             |
+|      The IDE tools (terminal, jdt.ls, theia are started) are started in separate   |
+|      sidecar containers.                                                           |
+|                                                                                    |
+|      A wsmaster in debug mode is started as a separate container. It's the user    |
+|      runtime container.                                                            |
+|                                                                                    |
+|      This second wsmaster instance will use the OSIO User token to create pods.    |
+|      User has privileges to create pods in USER NAMESPACE.                         |
 \------------------------------------------------------------------------------------/
                                                                                          
 +=-----------------------------------------------------------------------------------+   

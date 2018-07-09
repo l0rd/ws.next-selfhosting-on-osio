@@ -3,8 +3,8 @@
 /------------------------------------------------------------------------------------\  
 |1. User has not created any workspace yet                                       cGRE|
 |                                                                                    |
-|      To create workspaces' pods CHE MASTER uses Che service account                |
-|      that has privileges                                                           |
+|      To start pods CHE MASTER uses Che service account that                        |
+|      has enough privileges to create Pods in Che namespace                         |
 \------------------------------------------------------------------------------------/
 
  +=-----------------------------------------------------------------------------------+   
